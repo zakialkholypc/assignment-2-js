@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote of the Day</title>
+    <meta name="description" content="Quote of the Day">
+    <meta name="keywords"
+        content="Quote of the Day, Be yourself; everyone else is already taken., I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst">
+    <link rel="shortcut icon" href="./quote-left-solid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fontaweasom/css/all.min.css">
+</head>
+
+<body>
+    <div onclick="DarkWhiteToggle()" id="button" class="bulb m-auto mt-5">
+        <i class="fa-regular fa-sun"></i>
+    </div>
+    <header class="d-flex align-items-center flex-column vh-100  pt-5">
+        <div class="main-cate text-center">
+            <h1 class="mt-4">Quote of the Day</h1>
+            <h5 class="mt-5">Press the button below to recieve a random quote!</h5>
+            <button type="button" onclick="getQuote()" class="rounded-4 border-0 rou">New Quote</button>
+        </div>
+        <div class="quots-cont container">
+            <h5 id="quoteHere" class="px-3 m-auto text-center my-4"></h5>
+            <h5 id="author" class="text-center"></h5>
+        </div>
+    </header>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
